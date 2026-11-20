@@ -23,12 +23,20 @@
 
 ## Установка и запуск
 
-Нужны Python 3.12 или новее, tkinter и графический рабочий стол.
-Распакуйте архив целиком и откройте терминал **в папке `fdf-python`**.
+Для скачивания через Git выполните:
+
+```bash
+git clone https://github.com/mxskxm/fdf-python.git 
+cd fdf-python
+`
+``
+Если проект скачан ZIP-архивом, распакуйте его целиком и откройте терминал
+в папке, содержащей main.py и requirements-dev.txt.
+
+Далее выполните команды установки и запуска для своей системы.
 
 Windows PowerShell:
-
-```powershell
+powershell
 py -3.12 -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements-dev.txt
 .venv\Scripts\python.exe main.py maps/peak.fdf
