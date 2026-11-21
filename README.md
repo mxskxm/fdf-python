@@ -35,7 +35,7 @@ cd fdf-python
 Далее выполните команды установки и запуска для своей системы.
 
 Windows PowerShell:
-powershell
+```bash powershell
 py -3.12 -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements-dev.txt
 .venv\Scripts\python.exe main.py maps/peak.fdf
