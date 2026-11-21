@@ -28,8 +28,7 @@
 ```bash
 git clone https://github.com/mxskxm/fdf-python.git 
 cd fdf-python
-`
-``
+```
 Если проект скачан ZIP-архивом, распакуйте его целиком и откройте терминал
 в папке, содержащей main.py и requirements-dev.txt.
 
